@@ -1,5 +1,4 @@
 import React from "react";
-import "./globals.css";
 import Herosection from "./components/Herosection/Herosection";
 import Features from "./components/Features/Features";
 import Subsection from "./components/Subsection/Subsection";

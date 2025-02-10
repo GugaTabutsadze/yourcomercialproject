@@ -1,7 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Subscription = ({monthly}) => {
+interface Props {
+    monthly: boolean
+}
+
+const Subscription = ({monthly}:Props) => {
 
     const checkedItems = [
         {src: "/images/check.png", item: "Save unlimited passwords"},

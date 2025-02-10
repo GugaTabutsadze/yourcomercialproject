@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 
 const Logininput = () => {
      const [hiddenPassword, setHiddenPassword] = useState(false)
-        const [confirmHidden, setConfirmHidden] = useState(false)
+        
     
         const hiddenHandle = () => {
             setHiddenPassword(prev => !prev)

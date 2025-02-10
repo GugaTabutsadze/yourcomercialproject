@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Buttons = ({burgerMenu}) => {
+const Buttons = () => {
   return (
     <div className={`flex items-center pt-8 lg:pt-0 gap-4`}>
         <button className='flex items-center font-bold text-[18px]

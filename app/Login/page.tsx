@@ -1,8 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Signupbutton from '../components/Buttons/Signupbutton'
 import Link from 'next/link'
-import Input from '../Signup/Inputs/Input'
 import Logininput from './Logininput/Logininput'
 
 const page = () => {

@@ -1,7 +1,7 @@
-import { LocaleRouteNormalizer } from 'next/dist/server/normalizers/locale-route-normalizer'
 import React from 'react'
 import Questions from './Questions/Questions'
 import Link from 'next/link'
+
 
 const page = () => {
   const questions = [

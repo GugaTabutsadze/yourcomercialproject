@@ -1,9 +1,8 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Signupbutton from '../components/Buttons/Signupbutton';
 import Link from 'next/link';
 import Input from './Inputs/Input';
-import Logininput from '../Login/Logininput/Logininput';
+
 
 const page = () => {
   const [isClient, setIsClient] = useState(false);

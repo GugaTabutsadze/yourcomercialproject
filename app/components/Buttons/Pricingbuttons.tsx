@@ -1,6 +1,11 @@
 import React from 'react'
 
-const Pricingbuttons = ({monthly, setMonthly}) => {
+interface Props {
+  monthly: boolean;
+  setMonthly: (value: boolean) => void;
+}
+
+const Pricingbuttons = ({monthly, setMonthly}:Props) => {
   return (
     <div>
     <div className='flex items-center bg-[#DB287B]  p-3 rounded-xl text-2xl md:text-4xl'>

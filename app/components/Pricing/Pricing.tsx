@@ -3,9 +3,10 @@ import React, { useState } from 'react'
 import Pricingbuttons from '../Buttons/Pricingbuttons'
 import Subscription from './Subscription/Subscription'
 
+
 const Pricing = () => {
 
-    const [monthly, setMonthly] = useState<Boolean>(true)
+    const [monthly, setMonthly] = useState<boolean>(true)
 
     
 

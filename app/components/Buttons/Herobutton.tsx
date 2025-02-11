@@ -5,7 +5,7 @@ const Herobutton = () => {
   return (
     <div>
         <Link href="Signup">
-          <button className='flex items-center mt-6 bg-lightYellow px-4 py-3 rounded-lg'>
+          <button className='flex items-center mt-6 bg-light-yellow cursor-pointer px-4 py-3 rounded-lg'>
              <p className='text-[#85823D] font-semibold'>Get started</p>
              <img 
                className='hover:translate-x-2 duration-200'

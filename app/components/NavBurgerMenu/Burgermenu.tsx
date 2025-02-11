@@ -9,7 +9,7 @@ interface BurgerMenuProps {
 const Burgermenu: React.FC<BurgerMenuProps> = () => {
   return (
     <div className='flex flex-col items-start flex-wrap lg:space-x-6 border-b border-b-[#DB287B] 
-         py-4 text-2xl lg:max-w-sm w-full text-darkRed font-medium'>
+         py-4 text-2xl lg:max-w-sm w-full text-dark-red font-medium'>
       <Link className='hover:scale-105 py-2 duration-150 w-full' href="/">Home</Link>
       <Link className='hover:scale-105 py-2 duration-150 w-full' href="#pricing">Pricing</Link>
       <Link className='hover:scale-105 py-2 duration-150 w-full' href="/Contact">Contact</Link>

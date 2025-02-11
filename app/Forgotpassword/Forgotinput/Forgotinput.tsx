@@ -15,7 +15,7 @@ const Forgotinput = () => {
          <label>Email</label>
           <input 
             placeholder='Email address'
-            className='border border-black w-full bg-transparent outline-none
+            className='border border-black w-full bg-transparent outline-hidden
             px-10 py-2 rounded-lg focus:placeholder:opacity-0'
             type='text' alt='/' />
             <img 

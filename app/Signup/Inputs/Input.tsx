@@ -24,7 +24,7 @@ const Input = () => {
             name='email'
             id='email'
             placeholder='Email address'
-            className='border border-black w-full bg-transparent outline-none
+            className='border border-black w-full bg-transparent outline-hidden
             px-10 py-2 rounded-lg focus:placeholder:opacity-0'
             type='text' alt='/' />
             <img 
@@ -42,7 +42,7 @@ const Input = () => {
               name='password' 
               id='password'
               placeholder='Password'
-              className='border border-black w-full bg-transparent outline-none
+              className='border border-black w-full bg-transparent outline-hidden
               px-10 py-2 rounded-lg focus:placeholder:opacity-0'
               type='text' alt='/' /> 
               :
@@ -51,7 +51,7 @@ const Input = () => {
               name='password'
               id='password'
               placeholder='Password'
-              className='border border-black w-full bg-transparent outline-none
+              className='border border-black w-full bg-transparent outline-hidden
               px-10 py-2 rounded-lg focus:placeholder:opacity-0'
               type='password' alt='/' />
           }
@@ -87,7 +87,7 @@ const Input = () => {
               name='confirmpassword'
               id='confirmpassword'
               placeholder='Password'
-              className='border border-black w-full bg-transparent outline-none
+              className='border border-black w-full bg-transparent outline-hidden
               px-10 py-2 rounded-lg focus:placeholder:opacity-0'
               type='text' alt='/' /> 
               :
@@ -96,7 +96,7 @@ const Input = () => {
               name='confirmpassword'
               id='confirmpassword'
               placeholder='Password'
-              className='border border-black w-full bg-transparent outline-none
+              className='border border-black w-full bg-transparent outline-hidden
               px-10 py-2 rounded-lg focus:placeholder:opacity-0'
               type='password' alt='/' />
           }
@@ -125,7 +125,7 @@ const Input = () => {
         <Signupbutton />
         <div className='flex gap-2 text-[18px]'>
            <input required type='checkbox' alt='/' />
-           <p>I agree with the <Link className='text-lightPink font-semibold' href="/Termsandservice">
+           <p>I agree with the <Link className='text-light-pink font-semibold' href="/Termsandservice">
             Terms & Conditions</Link></p>
         </div>
       </form>

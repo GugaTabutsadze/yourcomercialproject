@@ -46,7 +46,7 @@ const Subscription = ({monthly}:Props) => {
         }
       </div>
       <Link href="/Signup">
-        <button className='w-full py-5 rounded-md border border-[#DB287B] 
+        <button className='w-full py-5 cursor-pointer rounded-md border border-[#DB287B] 
              text-[#DB287B] font-bold hover:bg-[#DB287B] hover:text-[#fff] duration-150'>
              Start 7 day free trial
          </button>

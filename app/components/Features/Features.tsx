@@ -32,9 +32,9 @@ const Features = () => {
   ]
   const colors = [
     "bg-pink-100",
-    "bg-lightGreen",
-    "bg-lightBlue",
-    "bg-lightYellow",
+    "bg-light-green",
+    "bg-light-blue",
+    "bg-light-yellow",
     "bg-red-100",
     "bg-orange-100"
   ]
@@ -43,7 +43,7 @@ const Features = () => {
   return (
     <div className='flex flex-col space-y-[100px] items-center gap-10 px-2  lg:px-32 mt-[200px]'>
       <div>
-        <h1 className='text-6xl text-darkRed font-semibold '>Features</h1>
+        <h1 className='text-6xl text-dark-red font-semibold '>Features</h1>
       </div>
       <div className="flex flex-col items-center px-4 lg:px-0 justify-center space-y-[70px]  gap-6">
         {icons.map((icon, index) => (

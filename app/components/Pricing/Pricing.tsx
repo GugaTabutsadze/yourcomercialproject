@@ -13,7 +13,7 @@ const Pricing = () => {
   return (
     <div id='pricing' className='flex flex-col items-center px-6 space-y-16'>
       <div>
-        <h1 className='text-6xl font-semibold text-darkRed'>Pricing</h1>
+        <h1 className='text-6xl font-semibold text-dark-red'>Pricing</h1>
       </div>
       <div className='flex items-center justify-center  w-full'>
         <Pricingbuttons monthly={monthly} setMonthly={setMonthly}/>

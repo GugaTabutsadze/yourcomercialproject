@@ -22,7 +22,7 @@ const page = () => {
       <div className='flex flex-col items-center md:shadow-2xl rounded-3xl w-full md:max-w-[75%] lg:w-[900px]'>
       <Input />
       <p className='mt-8 pb-6 text-[18px]'>
-       Already have an account?  <Link className='text-lightPink text-[18px] font-semibold' href="/Login">Sign in</Link>
+       Already have an account?  <Link className='text-light-pink text-[18px] font-semibold' href="/Login">Sign in</Link>
       </p>
       </div>
       

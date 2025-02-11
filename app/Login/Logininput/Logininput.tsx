@@ -18,7 +18,7 @@ const Logininput = () => {
           <label>Email</label>
           <input 
             placeholder='Email address'
-            className='border border-black w-full bg-transparent outline-none
+            className='border border-black w-full bg-transparent outline-hidden
             px-10 py-2 rounded-lg focus:placeholder:opacity-0'
             type='text' alt='/' />
             <img 
@@ -33,13 +33,13 @@ const Logininput = () => {
             hiddenPassword ? 
             <input 
               placeholder='Password'
-              className='border border-black w-full bg-transparent outline-none
+              className='border border-black w-full bg-transparent outline-hidden
               px-10 py-2 rounded-lg focus:placeholder:opacity-0'
               type='text' alt='/' /> 
               :
            <input 
               placeholder='Password'
-              className='border border-black w-full bg-transparent outline-none
+              className='border border-black w-full bg-transparent outline-hidden
               px-10 py-2 rounded-lg focus:placeholder:opacity-0'
               type='password' alt='/' />
               
@@ -67,7 +67,7 @@ const Logininput = () => {
                 
             </div>
             
-            <Link className= 'text-lightPink absolute top-20 right-5' href="/Forgotpassword">Forgot password?</Link>
+            <Link className= 'text-light-pink absolute top-20 right-5' href="/Forgotpassword">Forgot password?</Link>
             
         </div>
         <Signinbutton />
